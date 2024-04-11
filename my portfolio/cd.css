@@ -1,0 +1,90 @@
+body {
+    background: rgb(254, 254, 255);
+    color: rgb(215, 215, 215);
+    margin: 0;
+    padding: 0;
+    font-family: 'algerian';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(23, 23, 93);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(8, 236, 244);
+    font-size: 1.2rem;
+}
+
+.firstSection .right {
+    color: black;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 3;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.left {
+    text-align: center;
+    padding: 65px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+left label {
+    color: black;
+    font-size: 2rem;
+}
+
+.red {
+    color: aqua;
+}
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 0px 24px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+.lef {
+
+    text-align: center;
+    padding: 65px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+
+}
